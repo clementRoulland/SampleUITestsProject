@@ -21,7 +21,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        makeACall()
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,14 +28,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: IBActions
+    
+    @IBAction func callAction(_ sender: Any) {
+        makeACall()
+    }
+    
     // MARK: Business
 
     func makeACall() {
         
-        Alamofire.request("https://jsonplaceholder.typicode.com/posts").responseJSON { response in
+        Alamofire.request("https://jsonplaceholder.typicode.com/posts/1").responseJSON { response in
             
-            guard let JSON = response.result.value as? [[String: Any]],
-                let titleLabel = JSON.first?["title"] as? String else
+            guard let JSON = response.result.value as? [String: Any],
+                let titleLabel = JSON["title"] as? String else
             {
                 self.titleLabel.text = "Failed 😢"
                 return

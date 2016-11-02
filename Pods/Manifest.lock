@@ -1,12 +1,25 @@
 PODS:
   - Alamofire (4.0.1)
+  - FXKeychain (1.5.3)
+  - GCDWebServer (3.3.3):
+    - GCDWebServer/Core (= 3.3.3)
+  - GCDWebServer/Core (3.3.3)
+  - SBTUITestTunnel/Client (1.0.8)
+  - SBTUITestTunnel/Server (1.0.8):
+    - FXKeychain
+    - GCDWebServer (~> 3.0)
 
 DEPENDENCIES:
   - Alamofire
+  - SBTUITestTunnel/Client
+  - SBTUITestTunnel/Server
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  FXKeychain: 2fe54573946ffef634f4e2a2851e6c8f4ea15e76
+  GCDWebServer: 1c39a1f0763e4eb492bee021e4270fce097d3555
+  SBTUITestTunnel: 80bbf2047258b9a9d735bc17664e97a3012d6632
 
-PODFILE CHECKSUM: 50041e10931e0825246f2a25e014cc8c60f80470
+PODFILE CHECKSUM: 8852c5a1f665a7b0e10420a72565ee015f9e77b1
 
 COCOAPODS: 1.2.0.beta.1

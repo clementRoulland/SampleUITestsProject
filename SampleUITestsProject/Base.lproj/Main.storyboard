@@ -23,27 +23,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Data will appear here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HUv-yU-aLa">
-                                <rect key="frame" x="0.0" y="80.5" width="375" height="586.5"/>
+                                <rect key="frame" x="0.0" y="130.5" width="375" height="536.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFk-TI-8ij">
-                                <rect key="frame" x="38" y="40" width="299" height="20.5"/>
+                                <rect key="frame" x="38" y="90" width="299" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njk-Fw-MoW">
+                                <rect key="frame" x="38" y="40" width="299" height="30"/>
+                                <state key="normal" title="Make a call"/>
+                                <connections>
+                                    <action selector="callAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4ZK-Mf-oop"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="jFk-TI-8ij" secondAttribute="trailing" constant="22" id="2Ld-R5-7WJ"/>
                             <constraint firstItem="HUv-yU-aLa" firstAttribute="top" secondItem="jFk-TI-8ij" secondAttribute="bottom" constant="20" id="2TE-P4-cZ0"/>
-                            <constraint firstItem="jFk-TI-8ij" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="AMF-lh-MeF"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HUv-yU-aLa" secondAttribute="bottom" id="MnY-Ya-qT2"/>
+                            <constraint firstItem="Njk-Fw-MoW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="QBH-Ah-cdR"/>
                             <constraint firstItem="HUv-yU-aLa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XYJ-QV-2Hy"/>
+                            <constraint firstItem="Njk-Fw-MoW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="amM-8m-qEO"/>
+                            <constraint firstItem="jFk-TI-8ij" firstAttribute="top" secondItem="Njk-Fw-MoW" secondAttribute="bottom" constant="20" id="oLM-7n-Ny1"/>
                             <constraint firstItem="jFk-TI-8ij" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="p8H-5Q-Iix"/>
                             <constraint firstAttribute="trailing" secondItem="HUv-yU-aLa" secondAttribute="trailing" id="tlm-UT-Rjv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Njk-Fw-MoW" secondAttribute="trailing" constant="22" id="wr0-RP-AoQ"/>
                         </constraints>
                     </view>
                     <connections>

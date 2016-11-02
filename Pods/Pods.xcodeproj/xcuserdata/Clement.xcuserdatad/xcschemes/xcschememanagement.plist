@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FXKeychain.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GCDWebServer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-SampleUITestsProject.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,10 +34,40 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SBTUITestTunnel-Client.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SBTUITestTunnel-Server.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1CE6E0AFE8CFEB66EB50A4A9E252D2BD</key>
+		<key>1252D2FE5A3F0266E8959BB670344352</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C58801D4E825F9168489210CABFEA99</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26C444E42540CAC7D8545EEC6F1D5D13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2CF57D55C6F446A0D237A8610F276739</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53A83EC09A8EE5A6D834291D58B09392</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E2A1BBD517E970E53D87BDAE95AC8C15</key>
+		<key>FD1C01BCED4F8B57AAF4E31D56C44968</key>
 		<dict>
 			<key>primary</key>
 			<true/>

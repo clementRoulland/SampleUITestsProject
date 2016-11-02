@@ -7,6 +7,7 @@ target 'SampleUITestsProject' do
 
   # Pods for SampleUITestsProject
   pod 'Alamofire'
+  pod 'SBTUITestTunnel/Server'
 
   target 'SampleUITestsProjectTests' do
     inherit! :search_paths
@@ -16,6 +17,7 @@ target 'SampleUITestsProject' do
   target 'SampleUITestsProjectUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'SBTUITestTunnel/Client'
   end
 
 end

@@ -1,23 +1,17 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
+use_frameworks!
 target 'SampleUITestsProject' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+    pod 'Alamofire'
+    pod 'SBTUITestTunnel/Server'
+end
 
-  # Pods for SampleUITestsProject
-  pod 'Alamofire'
-  pod 'SBTUITestTunnel/Server'
+target 'SampleUITestsProjectTests' do
+    pod 'Alamofire'
+end
 
-  target 'SampleUITestsProjectTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'SampleUITestsProjectUITests' do
-    inherit! :search_paths
-    # Pods for testing
+target 'SampleUITestsProjectUITests' do
+    pod 'Alamofire'
     pod 'SBTUITestTunnel/Client'
-  end
-
 end

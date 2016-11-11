@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26C444E42540CAC7D8545EEC6F1D5D13"
-               BuildableName = "Pods_SampleUITestsProjectUITests.framework"
-               BlueprintName = "Pods-SampleUITestsProjectUITests"
+               BlueprintIdentifier = "3924D89C96C978E23F44F74390B3B5DB"
+               BuildableName = "SBTUITestTunnel.framework"
+               BlueprintName = "SBTUITestTunnel-Server"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26C444E42540CAC7D8545EEC6F1D5D13"
-            BuildableName = "Pods_SampleUITestsProjectUITests.framework"
-            BlueprintName = "Pods-SampleUITestsProjectUITests"
+            BlueprintIdentifier = "3924D89C96C978E23F44F74390B3B5DB"
+            BuildableName = "SBTUITestTunnel.framework"
+            BlueprintName = "SBTUITestTunnel-Server"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

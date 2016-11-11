@@ -2,6 +2,9 @@
 # platform :ios, '9.0'
 
 use_frameworks!
+
+project 'SampleUITestsProject', 'Prod' => :release, 'Staging' => :debug
+
 target 'SampleUITestsProject' do
     pod 'Alamofire'
     pod 'SBTUITestTunnel/Server'
